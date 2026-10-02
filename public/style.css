@@ -36,6 +36,9 @@ a {
   color: #fff;
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 @keyframes hover {
   50% {
     transform: translateY(-3px);
@@ -197,7 +200,8 @@ li {
   overflow-y: scroll;
 }
 th,
-td {
+td,
+.todo {
   font-size: 12px;
   padding: 10px;
 }
@@ -266,23 +270,31 @@ td {
   display: inline-block;
 }
 /*RESOURCE.HTML*/
-.resource-container {
+.resource-container,
+.sm-container {
   width: 50%;
   margin: 0 auto;
 }
 .resource-nav {
   border: none;
 }
-.resource-section {
+.resource-section,
+.sm-section {
   border: 1px solid #393941;
   margin: 10px;
   padding: 10px;
 }
-.resource-section a {
+.resource-section a,
+.sm-container a {
   display: block;
   font-size: 12px;
 }
 
+/*SITE MAP*/
+.sm-container a,
+h4 {
+  text-align: center;
+}
 /* media queries mobile phone,tablet*/
 @media (max-width: 480px) {
   /*Global*/
