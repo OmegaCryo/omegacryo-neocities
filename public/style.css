@@ -196,6 +196,9 @@ li {
   padding: 16px;
   color: #a3a3ae;
 }
+.container h2 {
+  padding: 5px;
+}
 .container p {
   font-size: 12px;
   padding: 5px;
@@ -213,6 +216,14 @@ li {
   height: 100%;
   object-fit: cover;
   object-position: 80% 20%;
+}
+.grid-center {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  gap: 10px;
+}
+.grid-center li {
+  font-size: 12px;
 }
 .updates {
   height: 250px;
@@ -238,12 +249,28 @@ td,
   padding: 10px;
 }
 .avatar {
-  width: 120px;
+  width: 145px;
   height: 120px;
   background-image: url(images/sylusavatar2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 10px auto;
+  margin: 10px;
+  display: inline-block;
+}
+.status-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.social-home {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.social-home li {
+  display: inline;
+  text-align: center;
+  padding: 10px;
 }
 /*ABOUT.HTML*/
 .about-container {
