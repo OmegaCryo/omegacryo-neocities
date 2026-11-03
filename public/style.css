@@ -83,11 +83,6 @@ footer {
   font-size: 35px;
   font-weight: 700;
 }
-.social {
-  margin: 20px;
-  text-align: center;
-  display: none;
-}
 .enter:hover a {
   background: white;
   color: black;
@@ -102,7 +97,6 @@ footer {
   text-align: center;
   margin: 30px;
   padding: 10px;
-  display: none;
 }
 /* HOME.HTML */
 header {
