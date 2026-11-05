@@ -54,7 +54,7 @@ footer {
 /* INDEX */
 #date {
   font-family: "Inter", sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 .index-header {
@@ -80,7 +80,7 @@ footer {
 }
 .enter {
   font-family: "Inter", sans-serif;
-  font-size: 35px;
+  font-size: 2.188rem;
   font-weight: 700;
 }
 .enter:hover a {
@@ -89,7 +89,7 @@ footer {
   padding: 5px;
 }
 .info-container {
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
   margin: 30px;
   padding: 10px;
@@ -113,13 +113,13 @@ li {
   text-align: end;
   margin: 10px;
   padding: 10px;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 .nav-container {
   flex: 1;
 }
 .nav-section {
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
 }
 .nav-section a {
@@ -140,7 +140,7 @@ li {
 }
 .scroll-header-inner {
   display: inline-block;
-  font-size: 10px;
+  font-size: 0.625rem;
   white-space: nowrap;
   padding-left: 100%;
   animation: scroll-left 20s linear infinite;
@@ -187,7 +187,7 @@ li {
   padding: 5px;
 }
 .container p {
-  font-size: 12px;
+  font-size: 0.75rem;
   padding: 5px;
 }
 .center-content {
@@ -210,7 +210,7 @@ li {
   gap: 10px;
 }
 .grid-center li {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .updates {
   height: 250px;
@@ -220,7 +220,7 @@ li {
 th,
 td,
 .todo {
-  font-size: 12px;
+  font-size: 0.75rem;
   padding: 10px;
 }
 .left-section {
@@ -283,7 +283,7 @@ td,
   margin: 10px 20px 10px 20px;
 }
 .right-box p {
-  font-size: 12px;
+  font-size: 0.75rem;
   padding: 5px;
 }
 .right-box ul li {
@@ -295,7 +295,7 @@ td,
   margin-bottom: 20px;
 }
 .about-section li {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .about-social {
   text-align: center;
@@ -321,7 +321,7 @@ td,
 .resource-section a,
 .sm-container a {
   display: block;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 /*SITE MAP*/
