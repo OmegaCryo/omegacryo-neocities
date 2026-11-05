@@ -88,12 +88,8 @@ footer {
   color: black;
   padding: 5px;
 }
-.social-link:hover {
-  background: white;
-  color: black;
-  padding: 5px;
-}
 .info-container {
+  font-size: 12px;
   text-align: center;
   margin: 30px;
   padding: 10px;
@@ -105,9 +101,6 @@ header {
   justify-content: space-between;
   gap: 2rem;
   padding: 3rem 1rem 2rem;
-}
-ul {
-  padding: 0;
 }
 li {
   list-style-type: none;
